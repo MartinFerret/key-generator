@@ -1,0 +1,21 @@
+{
+  "name": "key-generator",
+  "version": "1.0.0",
+  "description": "Effortlessly generate customizable and secure keys for your applications with this versatile npm package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "keywords": [
+    "key generation", 
+    "unique keys", 
+    "security", 
+    "traceability"
+  ],
+  "author": "Ferret Martin",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}
