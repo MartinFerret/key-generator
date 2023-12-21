@@ -2,9 +2,7 @@
 
 ## Description
 
-Ce package a été créé dans le but de pouvoir générer une clé customisable, selon les besoins actuels.
-
-Notre classe Generator s'occupe de générer une clé, avec sa méthode __generateKey()__.
+The key-generator package is designed to facilitate the creation of customizable keys tailored to specific requirements. The primary focus of the package is the Generator class, equipped with the generateKey() method, dedicated to generating keys with flexibility and ease.
 
 ## Installation
 
@@ -16,18 +14,18 @@ npm install key-generator
 
 ## Usage
 
-Un objet de paramètres est disponible au sein de la méthode generateKey(), ils sont tous optionnels, les voici :
+The generateKey() method provides a parameter object for customization, with the following optional parameters:
 
-binary: boolean
-length: number
-type: 'string' | 'number'
-uniqueChars: boolean
-prefix: string
-suffix: string
-customCharacters: string
-characterGroups: { uppercase: boolean, lowercase: boolean, numbers: boolean, specials: boolean }
-keyStrength: 'weak' | 'strong'
-separator: string
+**binary** : boolean
+**length** : number
+**type** : 'string' | 'number'
+**uniqueChars** : boolean
+**prefix** : string
+**suffix** : string
+**customCharacters** : string
+**characterGroups** : { uppercase: boolean, lowercase: boolean, numbers : boolean, specials: boolean }
+**keyStrength** : 'weak' | 'strong'
+**separator** : string
 
 ```js
 const generator = require('key-generator');
