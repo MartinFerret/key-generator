@@ -1,6 +1,6 @@
 {
-  "name": "key-generator",
-  "version": "1.0.0",
+  "name": "@martinferret/adaptable-key-generator",
+  "version": "1.0.1",
   "description": "Effortlessly generate customizable and secure keys for your applications with this versatile npm package.",
   "main": "index.js",
   "scripts": {

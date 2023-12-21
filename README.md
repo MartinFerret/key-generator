@@ -1,15 +1,15 @@
-# key-generator
+# adaptable-key-generator
 
 ## Description
 
-The key-generator package is designed to facilitate the creation of customizable keys tailored to specific requirements. The primary focus of the package is the Generator class, equipped with the generateKey() method, dedicated to generating keys with flexibility and ease.
+The adaptable-key-generator package is designed to facilitate the creation of customizable keys tailored to specific requirements. The primary focus of the package is the Generator class, equipped with the generateKey() method, dedicated to generating keys with flexibility and ease.
 
 ## Installation
 
 Install the package via npm:
 
 ```bash
-npm install key-generator
+npm install adaptable-key-generator
 ```
 
 ## Usage

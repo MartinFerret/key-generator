@@ -1,4 +1,4 @@
-const Validator = require('./src/lib/Validator');
+const Validator = require('./Validator');
 
 class Generator {
     static generateKey(options = {}) {
